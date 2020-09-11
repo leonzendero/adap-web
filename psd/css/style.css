@@ -1,0 +1,442 @@
+@import "fonts.css";
+
+body {
+    font-family: "Open Sans Semibold", serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    background: white;
+    padding: 20px 0;
+    color: #212121;
+}
+
+.menu-item {
+    margin-left: 40px;
+}
+
+.menu-item a {
+    font-size: 20px;
+    color: #212121;
+}
+
+.menu-item a:hover {
+    text-decoration: none;
+    color: silver;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url("../img/header.png");
+}
+
+.header-title {
+    font-size: 60px;
+}
+
+.header-text {
+    font-size: 22px;
+    margin-bottom: 113px;
+}
+
+.button {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+
+.button:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+
+/* About Us */
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 125px;
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-text {
+    font-size: 15px;
+    margin-bottom: 110px;
+    color: #212121;
+}
+.m-row-h {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.m-row {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+/* Our Services */
+
+.services {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+
+.our-cart {
+    background: white;
+    padding: 50px 30px 50px;
+    transition: 0.3s;
+    margin-bottom: 35px;
+}
+.img-cart {
+    font-size: 65px;
+    color: black;
+    transition: 0.3s;
+}
+.button-cart {
+    border: 2px solid black;
+    background: white;
+    font-size: 20px;
+    padding: 6px 5px 6px;
+    transition: 0.3s;
+}
+
+.our-cart:hover {
+    background: #00897b;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.our-cart:hover .img-cart{
+    color: white;
+}
+
+.our-cart:hover .button-cart {
+    background: #00897b;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+/* portfolio */
+
+.portfolio {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.button-portfolio {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.3s;
+    background: white;
+    border: 2px solid #00897b;
+}
+
+.button-portfolio:hover {
+    background: #00897b;
+    border: 2px solid #00897b;
+    color: white;
+}
+
+.portfolio img {
+    margin-bottom: 30px;
+}
+.row-portfolio {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    transition: 0.3s;
+}
+
+.button-portfolio-main {
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px 50px;
+    margin: 0 10px;
+    color: black;
+    transition: 0.3s;
+    background: white;
+    border: 2px solid #00897b;
+}
+
+.button-portfolio-main:hover {
+    background: #00897b;
+    border: 2px solid #00897b;
+    color: white;
+}
+
+.light-row > div :hover {
+    transition: 0.3s;
+    opacity: 0.5;
+    background: #000000;
+}
+
+/* pricing */
+
+.pricing {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    background: #f0f1f1;
+    color: black;
+}
+
+/* order */
+.price {
+    background: white;
+    transition: 0.3s;
+}
+
+.price-main {
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-image: url("../img/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210px;
+    color: white;
+    transition: 0.3s;
+}
+
+.price-main p {
+    font-size: 25px;
+}
+
+.price-main {
+    font-size: 50px;
+}
+
+.price-main sub {
+    font-size: 17px;
+}
+
+.price-main sup {
+    font-size: 25px;
+}
+
+.price-body {
+    padding: 50px 125px 60px;
+    font-family: "Open Sans Light", serif;
+}
+
+.price-footer {
+    padding-bottom: 60px;
+}
+
+.price-button {
+    background: white;
+    transition: 0.3s;
+    color: black;
+    border: 2px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+.price-button:hover {
+    background: #00897b;
+    border: 2px solid #00897b;
+    color: white;
+    transition: 0.3s;
+}
+
+.price:hover .price-button {
+    background: #00897b;
+    border: 2px solid #00897b;
+    color: white;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.team {
+    padding-top: 125px;
+    padding-bottom: 130px;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+/* team */
+
+.team {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.row-team img {
+    padding-bottom: 45px;
+}
+
+.team-name {
+    font-size: 20px;
+}
+.team-info {
+    font-size: 15px;
+    font-family: "Open Sans Light", serif;
+}
+
+/* blog */
+
+.blog {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    text-align: center;
+    background: #e4fdf9;
+}
+
+.blog-button {
+    padding-top: 125px;
+}
+
+.team-button {
+    background: white;
+    transition: 0.3s;
+    color: black;
+    border: 2px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.team-button:hover {
+    background: #00897b;
+    color: white;
+    border: 2px solid #00897b;
+}
+
+/* Слева Справа блог */
+
+.row-blog {
+    order: 1;
+}
+
+ .row-blog:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.blog-text {
+    text-align: left;
+    padding: 65px 30px 0;
+}
+
+.blog a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.blog a:hover {
+    color: #00897b;
+}
+
+.blog-info {
+    padding-top: 30px;
+}
+.blog-text p {
+    padding-top: 30px;
+}
+.blog-right {
+    padding: 0 20px 0;
+}
+
+.blog img {
+    width: 100%;
+}
+
+
+.team-button {
+    background: #e4fdf9;
+    transition: 0.3s;
+    color: black;
+    border: 2px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px 40px;
+}
+
+.team-button:hover {
+    background: #00897b;
+    color: white;
+    border: 2px solid #00897b;
+}
+
+.row-button {
+    padding-top: 130px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 110px;
+    color: white;
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer .about-text {
+    color: white;
+}
+
+.footer-img {
+    font-size: 50px;
+}
+
+.footer-img-center {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fa-map-marker-alt, .fa-phone, .fa-envelope {
+    font-size: 62px;
+    color: white;
+}
+
+.circle {
+    background: #3949ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+}
+
+.circle + p {
+    font-size: 20px;
+    font-family: "Open Sans Light", serif;
+}
